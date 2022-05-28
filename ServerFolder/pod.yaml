@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: server-api
+  labels:
+    role: domacipds
+spec:
+  containers:
+    - name: server-python
+      image: serverimg:tag1
+      ports:
+        - containerPort: 8081
