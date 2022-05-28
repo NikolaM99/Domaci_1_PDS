@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-request
+  labels:
+    role: domacipds
+spec:
+  containers:
+    - name: request-python
+      image: clientimg:tag2
