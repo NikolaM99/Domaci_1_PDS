@@ -6,5 +6,5 @@ metadata:
     role: domacipds
 spec:
   containers:
-    - name: request-python
+    - name: clientrequest
       image: clientimg:tag1
