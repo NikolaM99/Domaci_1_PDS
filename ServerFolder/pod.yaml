@@ -6,7 +6,7 @@ metadata:
     role: domacipds
 spec:
   containers:
-    - name: server-python
+    - name: serverapi
       image: serverimg:tag1
       ports:
         - containerPort: 8081
